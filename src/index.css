@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .input-box {
+        @apply w-full text-sm bg-transparent border-[1.5px] px-5 py-3 rounded mb-4 outline-none 
+    }
+    .btn {
+        @apply w-full text-sm bg-blue-500 text-white hover:bg-blue-400 my-1 border-[1.5px] px-5 py-3 rounded mb-4 outline-none 
+    }
+    .icon-btn {
+        @apply mt-5 text-2xl text-slate-300 cursor-pointer hover:text-blue-500 
+    }
+    .input-label {
+        @apply text-2xl text-slate-500 mb-2 mt-4 font-semibold
+    }
+    .profile-btn {
+        @apply border border-blue-500 px-3 py-2 rounded-full my-6 mb-20 mt-5
+    }
+}
+
+@media (max-width: 740px) {
+    .active p {
+        @apply text-white bg-blue-500
+    }
+}
+
+body {
+    font-family: poppins, sans-serif;
+    /* background-color: rgb(77, 77, 77); */
+}
+
+/* Navbar  */
+.active hr {
+    @apply block
+}
