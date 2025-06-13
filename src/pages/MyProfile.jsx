@@ -5,14 +5,14 @@ const MyAccount = () => {
   const [userData, setUserData] = useState({
     name: "Mohamed Dek",
     image: assets.profile_pic,
-    email: 'Madaaledesigner@gmail.com',
+    email: 'mohamed34@gmail.com',
     phone: '+252 614 459 166',
     address: {
       line1: '1027, WX-XALANE',
       line2: 'JaalleSiyaad Road'
     },
     gender: 'Male',
-    dob: '2003-08-23'
+    dob: '2000-05-01'
   })
 
   const [isEdit, setIsEdit] = useState(false)
